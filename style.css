@@ -1,0 +1,30 @@
+span{
+    position: relative;
+    height: 150px;
+    width: 67px;
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+    margin: 10px auto;
+}
+span:before {
+    border-left: 1px solid black;
+    content: "";
+    display: block;
+    height: 65px;
+    left: 34px;
+    position: absolute;
+    top: 30px;
+    width: 1px;
+    z-index: 0;
+}
+/* 
+span:after {
+    border-left: 1px solid black;
+    content: "";
+    display: block;
+    height: 67px;
+    left: 32px;
+    position: absolute;
+    top: 123px;
+} */
