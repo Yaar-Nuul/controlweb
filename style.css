@@ -1,17 +1,17 @@
 span{
     position: relative;
-    height: 150px;
+    height: 100px;
     width: 67px;
-    display: block;
+    display: flex;
     text-align: center;
     padding-top: 100px;
     margin: 10px auto;
 }
 span:before {
-    border-left: 1px solid black;
+    border-left: 1px solid grey;
     content: "";
     display: block;
-    height: 65px;
+    height: 40px;
     left: 34px;
     position: absolute;
     top: 30px;
@@ -28,3 +28,28 @@ span:after {
     position: absolute;
     top: 123px;
 } */
+
+
+#span{
+    background-color: darkgreen;
+    display: flex;
+    gap: 100px;
+    height: 50px;
+}
+nav{
+    display: flex;
+    gap: 100px;
+}
+#landing{
+    display: flex;
+    gap: 50px;
+    background-position: center;
+}
+.jar{
+display: flex;
+
+}
+
+#lotus{
+display: flex;
+}
